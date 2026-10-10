@@ -1,0 +1,68 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  background: #10121a;
+  color: #edf0ff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #b8baff;
+}
+
+a:focus-visible {
+  outline: 3px solid #f3d76b;
+  outline-offset: 3px;
+}
+
+.home,
+.page {
+  box-sizing: border-box;
+  max-width: 54rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem;
+}
+
+.eyebrow {
+  color: #b8baff;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.notice {
+  border-left: 3px solid #b8baff;
+  padding: 0.75rem 1rem;
+  background: #1b1d29;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  display: block;
+  min-width: 10rem;
+  padding: 1rem;
+  border: 1px solid #45485e;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.card:hover {
+  background: #1b1d29;
+}
+
+.links {
+  display: grid;
+  gap: 0.5rem;
+  padding-left: 1.25rem;
+}
