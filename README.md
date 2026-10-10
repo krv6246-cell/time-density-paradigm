@@ -2,6 +2,12 @@
 
 This repository is the consolidation point for project documentation and its static website. The material describes a project paradigm; it is not a claim that the paradigm is established physics.
 
+## Documentation
+
+- [Time Density Paradigm: системная спецификация и архитектура репозитория](docs/proposals/time-density-paradigm-system-specification.md) — **project proposal, not adopted or validated architecture**. It distinguishes conceptual definitions, qualified evidence, unverified claims, heuristics, and unimplemented implementation ideas.
+
+The proposal does not mean that its suggested site, simulator, migration, or scientific claims are implemented or established.
+
 Start at [`index.html`](index.html) for the English, Italian, and Russian navigation pages. See [`site-docs/MIGRATION_MANIFEST.md`](site-docs/MIGRATION_MANIFEST.md) for inspected sources, mapped material, and remaining migration decisions.
 
 ## Structure
