@@ -14,7 +14,7 @@ This repository is the consolidation point for project documentation and a small
 - `src/components/` — shared CSS and JavaScript.
 - `public/media/` — project media and captions.
 
-The current website is plain HTML, CSS, and browser JavaScript. Keep it build-free unless a concrete feature requires a framework; do not add a package manager, dependency, or deployment workflow just for scaffolding.
+The current website is plain HTML and CSS. Keep it build-free unless a concrete feature requires a framework; do not add a package manager, dependency, or deployment workflow just for scaffolding.
 
 ## Evidence and editorial standards
 

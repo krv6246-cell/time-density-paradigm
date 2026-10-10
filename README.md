@@ -9,7 +9,7 @@ Start at [`index.html`](index.html) for the English, Italian, and Russian naviga
 - `site-docs/` — ontology, knowledge-vault categories, simulator and website specifications, and migration provenance.
 - `src/content/en/`, `src/content/it/`, `src/content/ru/` — localized source content.
 - `src/pages/` — static pages, served directly without a build step.
-- `src/components/` — shared stylesheet and browser script.
+- `src/components/` — shared stylesheet.
 - `public/media/` — reserved for reviewed, attributed media.
 
 The website uses plain HTML, CSS, and JavaScript. To preview it locally, serve the repository root with a static HTTP server (for example, `python -m http.server`) and open the displayed local URL. No build or deployment configuration is required.
