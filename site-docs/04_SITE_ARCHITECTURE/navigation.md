@@ -12,7 +12,6 @@ The localized source summaries live in `src/content/{en,it,ru}/overview.md`. The
 ## Shared assets
 
 - `src/components/site.css` — shared page styles.
-- `src/components/navigation.js` — reserved for shared navigation behavior; not currently needed by the static pages.
 - `public/media/` — reserved for media with reviewed provenance and usage information.
 
 ## Publishing
