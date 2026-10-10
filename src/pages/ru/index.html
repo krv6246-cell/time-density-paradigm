@@ -3,25 +3,67 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Плотность времени — русский</title>
+    <meta name="description" content="Парадигма плотности времени: проектный хаб для длительного внимания, Хранилища Знаний и предлагаемого симулятора.">
+    <title>Парадигма плотности времени — русский</title>
     <link rel="stylesheet" href="../../components/site.css">
   </head>
   <body>
     <main class="page">
-      <p class="eyebrow">Проектная модель</p>
-      <h1>Парадигма плотности времени</h1>
-      <p class="notice">Здесь плотность времени представлена как развивающаяся проектная модель, а не как установленный научный факт. Её термины описывают предлагаемый способ рассуждать о системах и их временном контексте.</p>
-      <h2>Разделы</h2>
-      <ul class="links">
-        <li><a href="../../../site-docs/01_ONTOLOGY_AND_CORE/ontology.md">Онтология и основные понятия</a></li>
-        <li><a href="../../../site-docs/02_KNOWLEDGE_VAULT/01_TIME_AND_PERCEPTION/README.md">База знаний: время и восприятие</a></li>
-        <li><a href="../../../site-docs/02_KNOWLEDGE_VAULT/02_ATTENTION_AND_FOCUS/README.md">База знаний: внимание и фокус</a></li>
-        <li><a href="../../../site-docs/02_KNOWLEDGE_VAULT/03_SOCIAL_DYNAMICS/README.md">База знаний: социальная динамика</a></li>
-        <li><a href="../../../site-docs/02_KNOWLEDGE_VAULT/04_PRACTICAL_PROTOCOLS/README.md">База знаний: практические протоколы</a></li>
-        <li><a href="../../../site-docs/03_GAME_SIMULATOR/README.md">Концепция игрового симулятора</a></li>
-        <li><a href="../../../site-docs/05_MEDIA_GALLERY/README.md">Статус медиагалереи</a></li>
-      </ul>
-      <p><a href="../../../index.html">Выбор языка</a> · <a href="../../../site-docs/MIGRATION_MANIFEST.md">Манифест миграции</a></p>
+      <header class="site-header">
+        <a class="brand" href="../../../index.html" aria-label="Главная Парадигмы плотности времени">
+          <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="brand-gradient" x1="5" y1="5" x2="43" y2="43"><stop stop-color="#06b6d4"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs><path class="ring" d="M7 15 24 24 41 15M7 33l17-9 17 9"/><circle class="core" cx="24" cy="24" r="5"/></svg>
+          <span>ПАРАДИГМА ПЛОТНОСТИ ВРЕМЕНИ</span>
+        </a>
+        <nav class="language-switcher" aria-label="Выбор языка">
+          <a href="../en/index.html" lang="en">EN</a><a href="../it/index.html" lang="it">IT</a><a href="index.html" lang="ru" aria-current="page">RU</a>
+        </nav>
+      </header>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#manifest">Манифест</a><a href="#vault">Хранилище</a><a href="#simulator">Симулятор</a><a href="#gallery">Галерея</a>
+      </nav>
+
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Проектная рамка для длительного внимания</p>
+        <h1 id="hero-title">Преодолевайте фрагментацию внимания и клиповое мышление.</h1>
+        <p class="lead">Time Density — проектный язык для возвращения к значимой нити: ясному следующему действию, защищённому интервалу и меньшему количеству лишнего информационного шума.</p>
+        <div class="level-grid">
+          <article class="level-card"><strong>Уровень -1 · Концепция</strong><p>От времени-контейнера к модели присутствия: <code>rho(x) = 1 - |x|</code>.</p></article>
+          <article class="level-card"><strong>Уровень +1 · Практика</strong><p>Предлагаемые привычки для возвращения длительной концентрации, глубокой работы и когнитивной гигиены.</p></article>
+        </div>
+        <div class="cta-group">
+          <a class="button button-primary" href="../../../site-docs/02_KNOWLEDGE_VAULT/01_TIME_AND_PERCEPTION/README.md">Войти в Хранилище Знаний</a>
+          <a class="button button-secondary" href="#simulator">Открыть превью симулятора</a>
+        </div>
+      </section>
+
+      <section class="section" id="vault" aria-labelledby="vault-title">
+        <p class="eyebrow">Навигационный хаб</p>
+        <h2 id="vault-title">Хранилище Знаний</h2>
+        <p class="section-intro">Четыре маршрута от рассеянных сигналов к более ясному наблюдению и действию. Каждый раздел проходит отдельную проверку; не каждая предложенная тема уже развита.</p>
+        <div class="vault-grid">
+          <a class="vault-card" style="--card-accent:#06b6d4" href="../../../site-docs/02_KNOWLEDGE_VAULT/01_TIME_AND_PERCEPTION/README.md"><span class="vault-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4v8l5 3"/></svg></span><h3>Время и восприятие</h3><p>Субъективное переживание времени, внимание и полнота момента.</p></a>
+          <a class="vault-card" style="--card-accent:#3b82f6" href="../../../site-docs/02_KNOWLEDGE_VAULT/02_ATTENTION_AND_FOCUS/README.md"><span class="vault-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M12 4v16"/><circle cx="12" cy="12" r="4"/></svg></span><h3>Внимание и концентрация</h3><p>Протоколы глубокой работы и фильтрация отвлекающих сигналов.</p></a>
+          <a class="vault-card" style="--card-accent:#a78bfa" href="../../../site-docs/02_KNOWLEDGE_VAULT/03_SOCIAL_DYNAMICS/README.md"><span class="vault-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="9" r="3"/><circle cx="17" cy="11" r="3"/><path d="M3 20c1-4 9-4 10 0M13 20c1-3 6-3 8 0"/></svg></span><h3>Социальная динамика</h3><p>Коммуникация, эмоциональная устойчивость и асинхронный контакт.</p></a>
+          <a class="vault-card" style="--card-accent:#f59e0b" href="../../../site-docs/02_KNOWLEDGE_VAULT/04_PRACTICAL_PROTOCOLS/README.md"><span class="vault-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v16H7zM9 9h6M9 13h6M9 17h4"/></svg></span><h3>Практические протоколы</h3><p>Ежедневные, настраиваемые практики защиты фокуса.</p></a>
+        </div>
+      </section>
+
+      <section class="section simulator" id="simulator" aria-labelledby="simulator-title">
+        <div class="simulator-copy">
+          <p class="eyebrow">Zero Point Flow</p>
+          <h2 id="simulator-title">Визуализация концепции симулятора.</h2>
+          <p>Регулятор сближает линии с центром. Это интерактивное визуальное превью предлагаемого симулятора, а не научное измерение и не готовая игра.</p>
+          <a class="button button-secondary" href="../../../site-docs/03_GAME_SIMULATOR/README.md">Открыть концепцию симулятора</a>
+        </div>
+        <div class="simulator-visual" data-flow-preview>
+          <canvas class="flow-canvas" role="img" aria-label="Интерактивная визуализация линий, сходящихся к центральной Нулевой Точке"></canvas>
+          <label class="flow-control">Фокальная плотность <input type="range" min="0" max="1" value="0.55" step="0.05"></label>
+        </div>
+      </section>
+
+      <p class="notice" id="manifest">Формула и Нулевая Точка — язык проектной модели, а не установленная физика. Представленные практики — добровольные рабочие эвристики, а не медицинские или универсальные рекомендации.</p>
+      <footer class="site-footer" id="gallery"><span>Парадигма плотности времени</span><div class="footer-links"><a href="../../../site-docs/MIGRATION_MANIFEST.md">Манифест и источники</a><a href="../../../site-docs/05_MEDIA_GALLERY/README.md">Статус галереи</a><a href="../../../index.html">Языки</a></div></footer>
     </main>
+    <script src="../../components/zero-point-flow.js"></script>
   </body>
 </html>
