@@ -12,4 +12,4 @@ Start at [`index.html`](index.html) for the English, Italian, and Russian naviga
 - `src/components/` — shared stylesheet.
 - `public/media/` — reserved for reviewed, attributed media.
 
-The website uses plain HTML, CSS, and JavaScript. To preview it locally, serve the repository root with a static HTTP server (for example, `python -m http.server`) and open the displayed local URL. No build or deployment configuration is required.
+The website uses plain HTML and CSS. To preview it locally, serve the repository root with a static HTTP server (for example, `python -m http.server`) and open the displayed local URL. No build or deployment configuration is required.
